@@ -7,4 +7,4 @@ print('Área do círculo: ', area)
 
 print('A área do cículo de raio', raio, 'é', area)
 
-print(f'A área do círculo de raio {raio} é {área: .4f}')
+print(f'A área do círculo de raio {raio} é {área:.4f}')
