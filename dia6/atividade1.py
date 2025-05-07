@@ -20,6 +20,10 @@ if tempo <=0:
     sys.exit ('Informe o tempo positivo')
 
 
+DS = velocidade_inicial * tempo + (( aceleração * tempo ** 2) / 2)
+
+print(f'O valor de ΔS  é {DS} em m/s')
+
 
 
 
