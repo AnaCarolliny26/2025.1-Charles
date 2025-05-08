@@ -7,7 +7,7 @@ import sys
 # Informando a nota da Etapa 1
 etapa1 = int(input('Informe a nota da Etapa 1:'))
 if etapa1 < 0 or etapa1 > 100:
-    sys.exit ('ERRO: Nota etapa 2 Inválida. Informe nota entre 0 e 100.')
+    sys.exit ('ERRO: Nota etapa 1 Inválida. Informe nota entre 0 e 100.')
 
 # Informando a nota da etapa 2
 etapa2 = int(input('Informe a nota da etapa 2:'))
