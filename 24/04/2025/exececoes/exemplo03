@@ -1,0 +1,12 @@
+import sys
+try:
+ intdividendo = int (input('Digite o dividendo:'))
+ intDivisor = int (input('Digite o dividendo:'))
+ fltResultado = intdividendo / intDivisor
+except Exception as tipoExcecao:
+    print(f'ERRO: {tipoExcecao}')
+    print (f'ERRO:{sys.exc_info()}')
+except ValueError:
+    print('ERRO: Informe um valor que possa ser convertido em inteiro.')
+else:
+    print(fltResultado)
