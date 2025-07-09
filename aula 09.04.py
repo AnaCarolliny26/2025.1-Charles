@@ -24,3 +24,11 @@ else:
        arqLeitura.close()
 
 print(lstTimes)
+
+for time in  lstTimes:
+   time.insert (4, time [1]*3 + time[2])
+   time.append (time[5] - time [6])
+   
+
+
+
