@@ -3,7 +3,7 @@ import os, sys
 # Obtendo o diretório onde o programa está salvo
 strDir = os.path.dirname(__file__)
 
-# Abrindo e lendo o arquivo
+# Abrindo e lendo o arquiv
 try:
    arqLeitura = open(f'{strDir}\\carta.txt', 'r', encoding='utf-8')
 except FileNotFoundError:
