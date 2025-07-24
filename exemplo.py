@@ -1,4 +1,6 @@
-import requests
+import requestS, sys
+
+strCEP = input ('Informe o CEP:')
 
 try:
     reqHTTP = requests.get ('https://api.cartolafc.globo.com/atletas/mercado')
